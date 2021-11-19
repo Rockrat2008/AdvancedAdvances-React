@@ -1,4 +1,68 @@
-.App {
+body {
+  color: #ffeecf;
+  background-color: #1d3557;
+}
+
+h1,
+h2 {
+  font-family: "Noto Serif", "Open Sans";
+  text-align: center;
+}
+
+legend {
+  font-weight: bold;
+  background-color: #d36582;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.jumbotron {
+  background-color: #d36582;
+  margin: 0;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #2b59c3;
+  margin: 0px;
+  padding: 0px;
+}
+
+.modal-title,
+.form-check {
+  color: #d36582;
+}
+
+.mainContent {
+  margin: 20px;
+}
+
+.select-plan {
+  background-color: #1d3557;
+  color: #ffeecf;
+}
+
+.select-plan:hover {
+  background-color: #ffeecf;
+  color: #1d3557;
+}
+
+i {
+  background-color: #ffeecf;
+  color: #ffeecf;
+  border: 1px;
+}
+
+.site-footer {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +99,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
