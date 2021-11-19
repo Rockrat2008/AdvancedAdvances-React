@@ -9,7 +9,6 @@ import {
   Jumbotron,
 } from "reactstrap";
 import { NavLink, navLink } from "react-router-dom";
-import Col from "reactstrap/lib/Col";
 
 class Header extends Component {
   constructor(props) {

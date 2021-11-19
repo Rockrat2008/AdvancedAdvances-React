@@ -6,17 +6,14 @@ import Pricing from "./PricingComponent";
 import { Redirect, Route, Switch } from "react-router";
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return <div>
         <Header />
         <Switch>
-            <Route path="/home" />
-            <Route pricing="/pricing" />
-            <Redirect to="/home" />
+            <Route path="/home" component={Home} />
+            <Route exact path="/pricing" component={Pricing} />
+            <Redirect to="/home" component={Home} />
         </Switch>
         <Footer />
     </div>;

@@ -1,6 +1,7 @@
 import React from "react";
 
 function Pricing() {
+  return (
     <div class="container mainContent mx-auto">
       <div class="row">
         <div class="col-md-3">
@@ -13,7 +14,9 @@ function Pricing() {
           </ul>
           <div class="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">Select</button>
+              <button class="select-plan" role="button">
+                Select
+              </button>
             </a>
           </div>
         </div>
@@ -31,7 +34,9 @@ function Pricing() {
           </ul>
           <div class="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">Select</button>
+              <button class="select-plan" role="button">
+                Select
+              </button>
             </a>
           </div>
         </div>
@@ -58,7 +63,9 @@ function Pricing() {
           </ul>
           <div class="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">Select</button>
+              <button class="select-plan" role="button">
+                Select
+              </button>
             </a>
           </div>
         </div>
@@ -75,13 +82,15 @@ function Pricing() {
           </ul>
           <div class="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">Select</button>
+              <button class="select-plan" role="button">
+                Select
+              </button>
             </a>
           </div>
         </div>
       </div>
     </div>
-
+  );
 }
 
 export default Pricing;
