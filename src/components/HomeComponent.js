@@ -2,11 +2,11 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="mainContent">
+    <div className="mainContent">
       <p>
         You've invested in the best team possible, now it is time to give them
         the best tool possible - For your benefit, your teams benefit, and your
-        clients benefit.
+        principals benefit.
       </p>
       <p>
         What makes Advanced Advances better than traditional paper advances?
@@ -17,15 +17,15 @@ function Home() {
           lost or stolen
         </li>
         <li>
-          As soon as the information is updated every member of the EP detail
+          As soon as the information is updated every member of your EP detail
           has access to it
         </li>
         <li>
-          Access data on any computer, tablet or phone with internet access
+          Access all principal and advance information on any computer, tablet or phone with internet access
           using your secure login
         </li>
         <li>
-          Restrict access to who can modify prinicpal and advance information
+          Restricted access to who can modify prinicpal and advance information
         </li>
         <li>
           Restrict access so only people on a particular EP detail can see
