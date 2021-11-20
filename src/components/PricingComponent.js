@@ -53,7 +53,7 @@ function Pricing() {
             <li>3 team leaders</li>
             <li>Different team leaders for each tem</li>
             <li>
-              If desired - Seperate administrator account strictly for managing
+              If desired - Separate administrator account strictly for managing
               teams and permissions
             </li>
             <li>
@@ -76,7 +76,7 @@ function Pricing() {
             <li>Unlimited agents</li>
             <li>Unlimited clients</li>
             <li>Unlimited advances</li>
-            <li>UNlimited international advanes</li>
+            <li>Unlimited international advanes</li>
             <li>Unlimited EP teams</li>
             <li>Unlimited team leaders</li>
           </ul>
