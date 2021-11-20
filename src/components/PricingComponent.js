@@ -2,9 +2,9 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div class="container mainContent mx-auto">
-      <div class="row">
-        <div class="col-md-3">
+    <div className="container mainContent mx-auto">
+      <div className="row">
+        <div className="col-md-3">
           <h2>Basic - $25/month</h2>
           <ul>
             <li>One agent</li>
@@ -12,15 +12,15 @@ function Pricing() {
             <li>10 advance per client</li>
             <li>Local advances only</li>
           </ul>
-          <div class="text-center">
+          <div className="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">
+              <button className="select-plan" role="button">
                 Select
               </button>
             </a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div className="col-md-3">
           <h2>Advanced - $100/month</h2>
           <ul>
             <li>All basic features plus:</li>
@@ -32,15 +32,15 @@ function Pricing() {
             <li>3 EP teams</li>
             <li>1 team leader/Admin account</li>
           </ul>
-          <div class="text-center">
+          <div className="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">
+              <button className="select-plan" role="button">
                 Select
               </button>
             </a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div className="col-md-3">
           <h2>Premier - $200/month</h2>
           <ul>
             <li>All advanced featuers plus:</li>
@@ -61,15 +61,15 @@ function Pricing() {
               need to see the information have access to it
             </li>
           </ul>
-          <div class="text-center">
+          <div className="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">
+              <button className="select-plan" role="button">
                 Select
               </button>
             </a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div className="col-md-3">
           <h2>Ultimate - $300/month</h2>
           <ul>
             <li>All premier features plus:</li>
@@ -80,9 +80,9 @@ function Pricing() {
             <li>Unlimited EP teams</li>
             <li>Unlimited team leaders</li>
           </ul>
-          <div class="text-center">
+          <div className="text-center">
             <a role="button" data-toggle="modal" data-target="#purchaseModal">
-              <button class="select-plan" role="button">
+              <button className="select-plan" role="button">
                 Select
               </button>
             </a>

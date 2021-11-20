@@ -2,45 +2,48 @@ import React from "react";
 
 function Advances() {
   return (
-    <div class="container">
-      <h2 class="mt-3">Add An Advance</h2>
+    <div className="container">
+      <h2 className="mt-3">Add An Advance</h2>
       <p>Select the tabs to add data to each section for your advance.</p>
 
-      <ul class="nav nav-tabs">
-        <li class="nav-item active">
+      <ul className="nav nav-tabs">
+        <li className="nav-item active">
           <a
-            class="nav-link active"
+            className="nav-link active"
             data-toggle="tab"
             href="#startDestinationAddresses"
           >
             Starting and Destination Addresses
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#routes">
+        <li className="nav-item">
+          <a className="nav-link" data-toggle="tab" href="#routes">
             Routes
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#routeDetails">
+        <li className="nav-item">
+          <a className="nav-link" data-toggle="tab" href="#routeDetails">
             Route Details
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#safeHavens">
+        <li className="nav-item">
+          <a className="nav-link" data-toggle="tab" href="#safeHavens">
             Safe Havens
           </a>
         </li>
       </ul>
 
-      <div class="tab-content">
-        <div id="startDestinationAddresses" class="tab-pane fade show active">
+      <div className="tab-content">
+        <div
+          id="startDestinationAddresses"
+          className="tab-pane fade show active"
+        >
           <form method="post" enctype="multipart/form-data">
-            <div class="form-group row">
-              <label class="col-md-3" for="startingName">
+            <div className="form-group row">
+              <label className="col-md-3" for="startingName">
                 Starting Location
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="startingName"
@@ -49,11 +52,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="startingStreet">
+            <div className="form-group row">
+              <label className="col-md-3" for="startingStreet">
                 Starting Address
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="startingStreet"
@@ -61,10 +64,10 @@ function Advances() {
                   placeholder="Starting Street Address"
                 />
               </div>
-              <label class="col-md-3" for="startingCity">
+              <label className="col-md-3" for="startingCity">
                 Starting Address
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="startingCity"
@@ -73,11 +76,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="advanceLocation">
+            <div className="form-group row">
+              <label className="col-md-3" for="advanceLocation">
                 Advance Location
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="advanceLocation"
@@ -86,11 +89,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="destinationStreet">
+            <div className="form-group row">
+              <label className="col-md-3" for="destinationStreet">
                 Destination Address
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="destinationStreet"
@@ -98,10 +101,10 @@ function Advances() {
                   placeholder="Destination Street Address"
                 />
               </div>
-              <label class="col-md-3" for="destinationCity">
+              <label className="col-md-3" for="destinationCity">
                 Destination Address
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="destinationCity"
@@ -110,11 +113,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="distance">
+            <div className="form-group row">
+              <label className="col-md-3" for="distance">
                 Distance
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="number"
                   id="distance"
@@ -122,10 +125,10 @@ function Advances() {
                   placeholder="Distance in miles"
                 />
               </div>
-              <label class="col-md-3" for="travelTime">
+              <label className="col-md-3" for="travelTime">
                 Travel Time
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="travelTime"
@@ -136,13 +139,13 @@ function Advances() {
             </div>
           </form>
         </div>
-        <div id="routes" class="tab-pane fade">
+        <div id="routes" className="tab-pane fade">
           <form>
-            <div class="form-group row">
-              <label class="col-md-3" for="primaryRoute">
+            <div className="form-group row">
+              <label className="col-md-3" for="primaryRoute">
                 Primary Route
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="primaryRoute"
@@ -151,11 +154,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="primaryRouteDetails">
+            <div className="form-group row">
+              <label className="col-md-3" for="primaryRouteDetails">
                 Route Details
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="primaryRouteDetails"
                   name="primaryRouteDetails"
@@ -164,11 +167,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="secondaryRoute">
+            <div className="form-group row">
+              <label className="col-md-3" for="secondaryRoute">
                 Secondary Route
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="secondaryRoute"
@@ -177,11 +180,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="secondaryRouteDetails">
+            <div className="form-group row">
+              <label className="col-md-3" for="secondaryRouteDetails">
                 Route Details
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="secondaryRouteDetails"
                   name="secondaryRouteDetails"
@@ -190,11 +193,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="tertiaryRoute">
+            <div className="form-group row">
+              <label className="col-md-3" for="tertiaryRoute">
                 Tertiary Route
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="tertiaryRoute"
@@ -203,11 +206,11 @@ function Advances() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="tertiaryRouteDetails">
+            <div className="form-group row">
+              <label className="col-md-3" for="tertiaryRouteDetails">
                 Route Details
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="tertiaryRouteDetails"
                   name="tertiaryRouteDetails"
@@ -218,13 +221,13 @@ function Advances() {
             </div>
           </form>
         </div>
-        <div id="routeDetails" class="tab-pane fade">
+        <div id="routeDetails" className="tab-pane fade">
           <form>
-            <div class="form-group row">
-              <label class="col-md-3" for="specialEvents">
+            <div className="form-group row">
+              <label className="col-md-3" for="specialEvents">
                 Special Events In Area?
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="specialEvents"
                   name="specialEvents"
@@ -233,11 +236,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="roadClosures">
+            <div className="form-group row">
+              <label className="col-md-3" for="roadClosures">
                 Road Closures In Area?
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="roadClosures"
                   name="roadClosures"
@@ -246,11 +249,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="bridges">
+            <div className="form-group row">
+              <label className="col-md-3" for="bridges">
                 Bridges?
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="bridges"
                   name="bridges"
@@ -259,11 +262,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="overpassees">
+            <div className="form-group row">
+              <label className="col-md-3" for="overpassees">
                 Overpasses?
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="overpassees"
                   name="overpassees"
@@ -272,11 +275,11 @@ function Advances() {
                 ></textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="tollRoads">
+            <div className="form-group row">
+              <label className="col-md-3" for="tollRoads">
                 Toll Roads?
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="tollRoads"
                   name="tollRoads"
@@ -287,12 +290,12 @@ function Advances() {
             </div>
           </form>
         </div>
-        <div id="safeHavens" class="tab-pane fade">
-          <div class="form-group row">
-            <label class="col-md-2" for="hospitalName">
+        <div id="safeHavens" className="tab-pane fade">
+          <div className="form-group row">
+            <label className="col-md-2" for="hospitalName">
               Hospital Name
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 id="hospitalName"
@@ -300,10 +303,10 @@ function Advances() {
                 placeholder="Hospital Name"
               />
             </div>
-            <label class="col-md-3" for="responseTime">
+            <label className="col-md-3" for="responseTime">
               Average Response Time
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="responseTime"
@@ -312,11 +315,11 @@ function Advances() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-2" for="hospitalStreet">
+          <div className="form-group row">
+            <label className="col-md-2" for="hospitalStreet">
               Street Adress
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 id="hospitalStreet"
@@ -324,10 +327,10 @@ function Advances() {
                 placeholder="Street Address"
               />
             </div>
-            <label class="col-md-3" for="hospitalPhone">
+            <label className="col-md-3" for="hospitalPhone">
               Hospital Phone
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="hospitalPhone"
@@ -336,11 +339,11 @@ function Advances() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-2" for="policeDeptName">
+          <div className="form-group row">
+            <label className="col-md-2" for="policeDeptName">
               Police Department
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 id="policeDeptName"
@@ -348,10 +351,10 @@ function Advances() {
                 placeholder="Police Department"
               />
             </div>
-            <label class="col-md-3" for="pdResponseTime">
+            <label className="col-md-3" for="pdResponseTime">
               Average Response Time
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="pdResponseTime"
@@ -360,11 +363,11 @@ function Advances() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-2" for="policeStreet">
+          <div className="form-group row">
+            <label className="col-md-2" for="policeStreet">
               Street Adress
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 id="policeStreet"
@@ -372,10 +375,10 @@ function Advances() {
                 placeholder="Street Address"
               />
             </div>
-            <label class="col-md-3" for="policePhone">
+            <label className="col-md-3" for="policePhone">
               Police Phone
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="policePhone"
@@ -384,11 +387,11 @@ function Advances() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-2" for="fireDeptName">
+          <div className="form-group row">
+            <label className="col-md-2" for="fireDeptName">
               Fire Department
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 name="fireDeptName"
@@ -396,10 +399,10 @@ function Advances() {
                 placeholder="Fire Department"
               />
             </div>
-            <label class="col-md-3" for="fdResponseTime">
+            <label className="col-md-3" for="fdResponseTime">
               Average Response Time
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="fdResponseTime"
@@ -408,11 +411,11 @@ function Advances() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-2" for="fireStreet">
+          <div className="form-group row">
+            <label className="col-md-2" for="fireStreet">
               Street Adress
             </label>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <input
                 type="text"
                 id="fireStreet"
@@ -420,10 +423,10 @@ function Advances() {
                 placeholder="Street Address"
               />
             </div>
-            <label class="col-md-3" for="firePhone">
+            <label className="col-md-3" for="firePhone">
               Fire Phone
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="firePhone"

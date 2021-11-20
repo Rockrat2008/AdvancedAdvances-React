@@ -2,58 +2,58 @@ import React from "react";
 
 function Principals() {
   return (
-    <div class="container">
-      <h2 class="mt-3">Add A Principal</h2>
+    <div className="container">
+      <h2 className="mt-3">Add A Principal</h2>
       <p>Select the tabs to add data to each section for your principal.</p>
 
-      <ul class="nav nav-tabs">
-        <li class="nav-item active">
+      <ul className="nav nav-tabs">
+        <li className="nav-item active">
           <a
-            class="nav-link active"
+            className="nav-link active"
             data-toggle="tab"
             href="#basicPrincipalInfo"
           >
             Basic Principal information
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a
-            class="nav-link"
+            className="nav-link"
             data-toggle="tab"
             href="#principalCharacteristics"
           >
             Principal Characteristics
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#businessInfo">
+        <li className="nav-item">
+          <a className="nav-link" data-toggle="tab" href="#businessInfo">
             Business Information
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a
-            class="nav-link"
+            className="nav-link"
             data-toggle="tab"
             href="#extendedPrincipalDetails"
           >
             Extended Principal Details
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#familyInfo">
+        <li className="nav-item">
+          <a className="nav-link" data-toggle="tab" href="#familyInfo">
             Family Information
           </a>
         </li>
       </ul>
 
-      <div class="tab-content">
-        <div id="basicPrincipalInfo" class="tab-pane fade show active">
+      <div className="tab-content">
+        <div id="basicPrincipalInfo" className="tab-pane fade show active">
           <form>
-            <div class="form-group row">
-              <label class="col-md-3" for="firstName">
+            <div className="form-group row">
+              <label className="col-md-3" for="firstName">
                 First name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="firstName"
@@ -62,10 +62,10 @@ function Principals() {
                   required
                 />
               </div>
-              <label class="col-md-3" for="lastName">
+              <label className="col-md-3" for="lastName">
                 Last name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="lastName"
@@ -75,11 +75,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="homePhone">
+            <div className="form-group row">
+              <label className="col-md-3" for="homePhone">
                 Home phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="homePhone"
@@ -87,10 +87,10 @@ function Principals() {
                   placeholder="Home Phone"
                 />
               </div>
-              <label class="col-md-3" for="mobilePhone">
+              <label className="col-md-3" for="mobilePhone">
                 Mobile phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="mobilePhone"
@@ -99,11 +99,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="homeStreet">
+            <div className="form-group row">
+              <label className="col-md-3" for="homeStreet">
                 Home Address 1
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="homeStreet"
@@ -111,10 +111,10 @@ function Principals() {
                   placeholder="Home Street Address"
                 />
               </div>
-              <label class="col-md-3" for="homeCity">
+              <label className="col-md-3" for="homeCity">
                 Home Address 2
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="homeCity"
@@ -125,13 +125,13 @@ function Principals() {
             </div>
           </form>
         </div>
-        <div id="principalCharacteristics" class="tab-pane fade">
+        <div id="principalCharacteristics" className="tab-pane fade">
           <form method="post" enctype="multipart/form-data">
-            <div class="form-group row">
-              <label class="col-md-3" for="height">
+            <div className="form-group row">
+              <label className="col-md-3" for="height">
                 Height
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="height"
@@ -139,10 +139,10 @@ function Principals() {
                   placeholder="Height"
                 />
               </div>
-              <label class="col-md-3" for="Weight">
+              <label className="col-md-3" for="Weight">
                 Weight
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="Weight"
@@ -151,11 +151,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="distinguishingMarks">
+            <div className="form-group row">
+              <label className="col-md-3" for="distinguishingMarks">
                 Distinguishing Marks
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="distinguishingMarks"
                   name="distinguishingMarks"
@@ -168,13 +168,13 @@ function Principals() {
             </div>
           </form>
         </div>
-        <div id="businessInfo" class="tab-pane fade">
+        <div id="businessInfo" className="tab-pane fade">
           <form>
-            <div class="form-group row">
-              <label class="col-md-3" for="business">
+            <div className="form-group row">
+              <label className="col-md-3" for="business">
                 Business Name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="business"
@@ -183,11 +183,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="position">
+            <div className="form-group row">
+              <label className="col-md-3" for="position">
                 Position
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="position"
@@ -195,10 +195,10 @@ function Principals() {
                   placeholder="Position"
                 />
               </div>
-              <label class="col-md-3" for="busPhone">
+              <label className="col-md-3" for="busPhone">
                 Business phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="busPhone"
@@ -207,11 +207,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="businessStreet">
+            <div className="form-group row">
+              <label className="col-md-3" for="businessStreet">
                 Business Address 1
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="businessStreet"
@@ -219,10 +219,10 @@ function Principals() {
                   placeholder="Business Street Address"
                 />
               </div>
-              <label class="col-md-3" for="businessCity">
+              <label className="col-md-3" for="businessCity">
                 Business Address 2
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="businessCity"
@@ -231,11 +231,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="assistant">
+            <div className="form-group row">
+              <label className="col-md-3" for="assistant">
                 Assistant
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="assistant"
@@ -243,10 +243,10 @@ function Principals() {
                   placeholder="Assistant"
                 />
               </div>
-              <label class="col-md-3" for="assistantPhone">
+              <label className="col-md-3" for="assistantPhone">
                 Assistant phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="assistantPhone"
@@ -257,12 +257,12 @@ function Principals() {
             </div>
           </form>
         </div>
-        <div id="extendedPrincipalDetails" class="tab-pane fade">
-          <div class="form-group row">
-            <label class="col-md-3" for="physician">
+        <div id="extendedPrincipalDetails" className="tab-pane fade">
+          <div className="form-group row">
+            <label className="col-md-3" for="physician">
               Physician
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="physician"
@@ -270,10 +270,10 @@ function Principals() {
                 placeholder="Physician"
               />
             </div>
-            <label class="col-md-3" for="drPhone">
+            <label className="col-md-3" for="drPhone">
               Phone Number
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="drPhone"
@@ -282,11 +282,11 @@ function Principals() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-3" for="doctorStreet">
+          <div className="form-group row">
+            <label className="col-md-3" for="doctorStreet">
               Doctor Address 1
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="doctorStreet"
@@ -294,10 +294,10 @@ function Principals() {
                 placeholder="Doctor Street Address"
               />
             </div>
-            <label class="col-md-3" for="doctorCity">
+            <label className="col-md-3" for="doctorCity">
               Doctor Address 2
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="doctorCity"
@@ -306,11 +306,11 @@ function Principals() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-3" for="dentist">
+          <div className="form-group row">
+            <label className="col-md-3" for="dentist">
               Dentist
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="dentist"
@@ -318,10 +318,10 @@ function Principals() {
                 placeholder="Dentist"
               />
             </div>
-            <label class="col-md-3" for="dentistPhone">
+            <label className="col-md-3" for="dentistPhone">
               Phone Number
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="dentistPhone"
@@ -330,11 +330,11 @@ function Principals() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-3" for="dentistStreet">
+          <div className="form-group row">
+            <label className="col-md-3" for="dentistStreet">
               Dentist Address 1
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="dentistStreet"
@@ -342,10 +342,10 @@ function Principals() {
                 placeholder="Dentist Street Address"
               />
             </div>
-            <label class="col-md-3" for="dentistCity">
+            <label className="col-md-3" for="dentistCity">
               Dentist Address 2
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <input
                 type="text"
                 id="dentistCity"
@@ -354,11 +354,11 @@ function Principals() {
               />
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-3" for="medications">
+          <div className="form-group row">
+            <label className="col-md-3" for="medications">
               Medications
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <textarea
                 id="medications"
                 name="medications"
@@ -367,11 +367,11 @@ function Principals() {
               ></textarea>
             </div>
           </div>
-          <div class="form-group row">
-            <label class="col-md-3" for="medicalConditions">
+          <div className="form-group row">
+            <label className="col-md-3" for="medicalConditions">
               Medical Conditions
             </label>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <textarea
                 id="medicalConditions"
                 name="medicalConditions"
@@ -381,13 +381,13 @@ function Principals() {
             </div>
           </div>
         </div>
-        <div id="familyInfo" class="tab-pane fade">
+        <div id="familyInfo" className="tab-pane fade">
           <form>
-            <div class="form-group row">
-              <label class="col-md-3" for="spouseName">
+            <div className="form-group row">
+              <label className="col-md-3" for="spouseName">
                 Spouse name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="spouseName"
@@ -395,10 +395,10 @@ function Principals() {
                   placeholder="Spouse Name"
                 />
               </div>
-              <label class="col-md-3" for="spousePhone">
+              <label className="col-md-3" for="spousePhone">
                 Spouse Phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="spousePhone"
@@ -407,11 +407,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="height">
+            <div className="form-group row">
+              <label className="col-md-3" for="height">
                 Height
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="height"
@@ -419,10 +419,10 @@ function Principals() {
                   placeholder="Height"
                 />
               </div>
-              <label class="col-md-3" for="Weight">
+              <label className="col-md-3" for="Weight">
                 Weight
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="Weight"
@@ -431,11 +431,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="distinguishingMarks">
+            <div className="form-group row">
+              <label className="col-md-3" for="distinguishingMarks">
                 Distinguishing Marks
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="distinguishingMarks"
                   name="distinguishingMarks"
@@ -446,11 +446,11 @@ function Principals() {
                 </textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="child1">
+            <div className="form-group row">
+              <label className="col-md-3" for="child1">
                 Child Name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="child1"
@@ -458,10 +458,10 @@ function Principals() {
                   placeholder="Child Name"
                 />
               </div>
-              <label class="col-md-3" for="child1Phone">
+              <label className="col-md-3" for="child1Phone">
                 Child Phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="tel"
                   id="child1Phone"
@@ -470,11 +470,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="height">
+            <div className="form-group row">
+              <label className="col-md-3" for="height">
                 Height
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="height"
@@ -482,10 +482,10 @@ function Principals() {
                   placeholder="Height"
                 />
               </div>
-              <label class="col-md-3" for="Weight">
+              <label className="col-md-3" for="Weight">
                 Weight
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="Weight"
@@ -494,11 +494,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="distinguishingMarks">
+            <div className="form-group row">
+              <label className="col-md-3" for="distinguishingMarks">
                 Distinguishing Marks
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="distinguishingMarks"
                   name="distinguishingMarks"
@@ -509,11 +509,11 @@ function Principals() {
                 </textarea>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="child2Name">
+            <div className="form-group row">
+              <label className="col-md-3" for="child2Name">
                 Child Name
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="child2Name"
@@ -521,10 +521,10 @@ function Principals() {
                   placeholder="Child Name"
                 />
               </div>
-              <label class="col-md-3" for="child2Phone">
+              <label className="col-md-3" for="child2Phone">
                 Child Phone
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="child2Phone"
@@ -533,11 +533,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="height">
+            <div className="form-group row">
+              <label className="col-md-3" for="height">
                 Height
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="height"
@@ -545,10 +545,10 @@ function Principals() {
                   placeholder="Height"
                 />
               </div>
-              <label class="col-md-3" for="Weight">
+              <label className="col-md-3" for="Weight">
                 Weight
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <input
                   type="text"
                   id="Weight"
@@ -557,11 +557,11 @@ function Principals() {
                 />
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3" for="distinguishingMarks">
+            <div className="form-group row">
+              <label className="col-md-3" for="distinguishingMarks">
                 Distinguishing Marks
               </label>
-              <div class="col-md-3">
+              <div className="col-md-3">
                 <textarea
                   id="distinguishingMarks"
                   name="distinguishingMarks"
